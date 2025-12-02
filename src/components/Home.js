@@ -45,14 +45,14 @@ function App() {
             <div className="headline-medium">Skills:</div>
             <div>
                <ul style={{ margin: 0 }}>
-                  <li>Languages: Java, Kotlin, Python, PHP, JavaScript</li>
-                  <li>Frameworks & Libraries: Dagger2, Hilt, RxJava, ReactJs, React Native, Flutter</li>
-                  <li>Web Development: PHP Frameworks (CakePHP, CodeIgniter, Laravel), CSS Framework (Bootstrap), JS Framework (jQuery, ReactJs)</li>
-                  <li>Databases: MySQL, SQLite, Oracle</li>
-                  <li>Operating Systems: macOS, Ubuntu, Windows</li>
-                  <li>Version Control: GitHub, SVN, BitBucket</li>
-                  <li>Others: WebSocket, SignalR, Google Firebase, Firestore, Redux, Saga, MVP, MVVM, Bloc, Google GeoFence, Kotlin DSL</li>
-                  <li>Protocol: GATT (for Bluetooth Low Energy), TCP/IP, ZWave</li>
+                  <li>Languages: Java, Kotlin, Python, PHP, JavaScript.</li>
+                  <li>Architecure: MVP, MVVM, Multi-Modular, MVC(web).</li>
+                  <li>Frameworks & Libraries: Dagger2, Hilt, RxJava, ReactJs, React Native, Flutter, Tensorflow.</li>
+                  <li>Web Development: CodeIgniter (PHP Framework), Bootstrap (CSS Framework), JS Frameworks (jQuery, ReactJs).</li>
+                  <li>Databases: MySQL, SQLite, Oracle.</li>
+                  <li>Version Control: Git, SVN.</li>
+                  <li>Others: WebSocket, SignalR, Google Firebase, Google GeoFence, Kotlin DSL.</li>
+                  <li>Protocol: GATT (for Bluetooth Low Energy), TCP/IP, ZWave.</li>
                </ul>
             </div>
          </section>
@@ -61,7 +61,7 @@ function App() {
             <div className="headline-medium">Experience</div>
             <div className='job'>
                <div className='company-title'>Adaptive Enterprise Limited</div>
-               <div className='designation'>Senior Software Engineer <span className='duration'>• May 2018 - Present (6 years 3 month)</span></div>
+               <div className='designation'>Senior Software Engineer <span className='duration'>• May 2018 - Present (7 years 3 months)</span></div>
                <ul>
                   <li> IoT Integration: Developed smart home automation system using smart node device based on Z-Wave and Bluetooth low energy protocol</li>
                   <li> Geofencing: Implemented location-based services to enhance application functionalities</li>
@@ -71,6 +71,7 @@ function App() {
                   <li> Java to Kotlin Migration: Converted complex app from Java to Kotlin, improving performance</li>
                   <li> Project Leadership: Led projects from concept to deployment, coordinating cross-functional teams</li>
                   <li> Code Reviews and Mentorship: Conducted code reviews and mentored junior developers</li>
+                  <li> SDK Development: Architected and maintained a robust SDK for Napco smart locks, providing secure APIs, BLE communication, and integration tools for external developers</li>
                </ul>
             </div>
             <div className='job margintop-for-print-mid'>
@@ -86,7 +87,7 @@ function App() {
                </ul>
             </div>
 
-            <div className='job margintop-for-print'>
+            <div className='job'>
                <div className='company-title'>ChefOnline</div>
                <div className='designation'>Android Developer <span className='duration'>• March 2015 - December 2016 (1 year 10 months)</span></div>
                <ul>
@@ -131,7 +132,7 @@ function App() {
                <div className='secondary-title'>Credential Id: <a href="https://www.credly.com/badges/0d99b65e-5825-49c1-8766-79deaebb5384">OC1661596</a></div>
             </div>
 
-            <div className='top-gap'>
+            <div className='top-gap margintop-for-print-mid'>
                <div className='mid-bold'>Kotlin for Java Developers</div>
                <div className='secondary-title'>Issued By: <span className='mid-bold'>Coursera</span></div>
                <div className='secondary-title'>Credential Id: <a href="https://www.coursera.org/account/accomplishments/certificate/7Y38Y4TGG9RR">7Y38Y4TGG9RR</a></div>
@@ -141,6 +142,12 @@ function App() {
                <div className='mid-bold'>Python 3 Programming</div>
                <div className='secondary-title'>Issued By: <span className='mid-bold'>Coursera</span></div>
                <div className='secondary-title'>Credential Id: <a href="https://coursera.org/share/f22b60ac1d6d082bce667c17fa584c26">FAPHYQ3S2DYU</a></div>
+            </div>
+
+            <div className="top-gap">
+               <div className='mid-bold'>Supervised Machine Learning: Regression and Classification</div>
+               <div className='secondary-title'>Issued By: <span className='mid-bold'>Coursera</span></div>
+               <div className='secondary-title'>Credential Id: <a href="https://coursera.org/share/88173471304c98931c7e24144f93ff02">FB9ZYHWWYI0F</a></div>
             </div>
 
             <div className='top-gap'>
@@ -174,37 +181,43 @@ function App() {
             <div className='bottom-gap'>
                <div className='headline-small'>Gemini Commercial Security</div>
                <div>It&apos;s a complete home automation system based on Zwave, Blutooth Low energy, TCP/IP protocol. Integrated Access Control Systems from 8 to 255 zones/points. The App is supported on phones/smart devices for universality.</div>
-               <div>Website: <a href="https://t.ly/gFWy8">App Download Link</a></div>
+               <div className='secondary-title'>Website: <a href="https://t.ly/gFWy8">App Download Link</a></div>
+            </div>   
+
+            <div className='bottom-gap'>
+               <div className='headline-small'>Napco iLockSDK</div>
+               <div>The Napco ILockSDK provides a comprehensive framework for connecting, controlling, and managing Napco smart locks using Bluetooth in your Android app. It handles credential decoding, lock operations, and status monitoring so you can focus on your app’s UI and business logic.</div>
+               <div className='secondary-title'>Website: <a href="https://napcodev.github.io/ilocksdkandroiddocs/">SDK Download & Documentation Link</a></div>
             </div>
 
             <div className='bottom-gap'>
                <div className='headline-small'>Citywide iLock</div>
                <div>iLock application is used to control AlarmLock Bluetooth enabled Locks. This iLock app can be use in place of a proximity credential.</div>
-               <div>Website: <a href="https://play.google.com/store/apps/details?id=com.napcosecurity.ilockcitylink">App Download Link</a></div>
+               <div className='secondary-title'>Website: <a href="https://play.google.com/store/apps/details?id=com.napcosecurity.ilockcitylink">App Download Link</a></div>
             </div>
 
             <div className='bottom-gap'>
                <div className='headline-small'>iSecure Alarm Security</div>
                <div>iSecure Smart Consumer App provides Security and Connected Home Control + Notification Alerts for multiple consumers within a protected premises/household.</div>
-               <div>Website: <a href="https://play.google.com/store/apps/details?id=com.napcosecurity.iBridge2.isecure">App Download Link</a></div>
+               <div className='secondary-title'>Website: <a href="https://play.google.com/store/apps/details?id=com.napcosecurity.iBridge2.isecure">App Download Link</a></div>
             </div>
 
             <div className='bottom-gap'>
                <div className='headline-small'>ChefOnline - Online Takeaways</div>
                <div>The perfect online food ordering app, designed to bring your favourite takeaway straight to you in just three simple step</div>
-               <div>Website: <a href="https://play.google.com/store/apps/details?id=com.chefonline.chefonline">App Download Link</a></div>
+               <div className='secondary-title'>Website: <a href="https://play.google.com/store/apps/details?id=com.chefonline.chefonline">App Download Link</a></div>
             </div>
 
             <div className='bottom-gap'>
-               <div className='headline-small'>English to Bangla Dictionary</div>
-               <div>English to Bangla Offline (no internet connection required) Dictionary is a very fast and light weight dictionary application. User can easily find Bengali meaning from english word.</div>
-               <div>Website: <a href="https://play.google.com/store/apps/details?id=com.artifactslab.dictionary">App Download Link</a></div>
+               <div className='headline-small'>BLE Peripheral Scanner</div>
+               <div>BLE Device Scanner is an Android app designed to find nearby Bluetooth Low Energy (BLE) enabled peripheral devices and perform read, write, notify and indiacation operation on connected peripheral devices. It features continuous scanning and demonstrates a multi-module architecture using MVVM, Kotlin, Hilt, Jetpack Compose and Unit Test.</div>
+               <div className='secondary-title'>Website: <a href="https://github.com/mnhmasum/ble-device-scanner">Repository Link</a></div>
             </div>
 
             <div className='bottom-gap'>
                <div className='headline-small'>ChefOnline Partner</div>
                <div>The ChefOnline Partner app is the answer to everything you need for your restaurant management. We have a variety of services for restaurant owners throughout the UK to promote the craft of great eating. Join our platform and be among the top restaurant businesses with diverse cuisine types from all across the country.</div>
-               <div>Website: <a href="https://play.google.com/store/apps/details?id=com.lechef.SRSITAPP">App Download Link</a></div>
+               <div className='secondary-title'>Website: <a href="https://play.google.com/store/apps/details?id=com.lechef.SRSITAPP">App Download Link</a></div>
             </div>
 
          </section>
