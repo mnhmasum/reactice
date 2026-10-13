@@ -1,7 +1,6 @@
 import React from 'react';
 import '../Styles/Home.css';
 
-
 function App() {
    return (
       <div className="App">
@@ -27,7 +26,6 @@ function App() {
                      <img width="30" height="30" src="https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png" alt="LeetCode" />
                   </a>
                </div>
-
             </div>
          </section>
 
@@ -46,7 +44,7 @@ function App() {
             <div>
                <ul style={{ margin: 0 }}>
                   <li>Languages: Java, Kotlin, Python, PHP, JavaScript.</li>
-                  <li>Architecure: MVP, MVVM, Multi-Modular, MVC(web).</li>
+                  <li>Architecture: MVP, MVVM, Multi-Modular, MVC(web).</li>
                   <li>Frameworks & Libraries: Dagger2, Hilt, RxJava, ReactJs, React Native, Flutter, Tensorflow.</li>
                   <li>Web Development: CodeIgniter (PHP Framework), Bootstrap (CSS Framework), JS Frameworks (jQuery, ReactJs).</li>
                   <li>Databases: MySQL, SQLite, Oracle.</li>
@@ -59,9 +57,21 @@ function App() {
 
          <section>
             <div className="headline-medium">Experience</div>
+            <div className="company-title">Maple IT Solutions</div>
+            <div className="designation">
+               Senior Android Developer <span className="duration">Feb 2026 - Present</span>
+            </div>
+            <ul>
+               <li>Android Kiosk Development: Develop and maintain Android-based kiosk applications for commercial and enterprise devices.</li>
+               <li>AOSP Integration: Work with Android Open Source Project (AOSP), including Android system services and platform-level integrations.</li>
+               <li>OTA Updates: Implement and maintain over-the-air (OTA) update workflows for Android kiosk devices, including package handling and update installation.</li>
+               <li>Device Management: Develop device-level features to support kiosk configuration, system operations, and device lifecycle management.</li>
+               <li>System-Level Development: Investigate Android framework, Binder IPC, permissions, and SELinux policies to support privileged device functionality.</li>
+               <li>Display Management: Work with display configuration and resolution management on Android-based devices.</li>
+            </ul>
             <div className='job'>
                <div className='company-title'>Adaptive Enterprise Limited</div>
-               <div className='designation'>Senior Software Engineer <span className='duration'>• May 2018 - Present (7 years 3 months)</span></div>
+               <div className='designation'>Senior Software Engineer <span className='duration'>May 2018 - Present</span></div>
                <ul>
                   <li> IoT Integration: Developed smart home automation system using smart node device based on Z-Wave and Bluetooth low energy protocol</li>
                   <li> Geofencing: Implemented location-based services to enhance application functionalities</li>
@@ -76,7 +86,7 @@ function App() {
             </div>
             <div className='job margintop-for-print-mid'>
                <div className='company-title'>Augmedix</div>
-               <div className='designation'>Senior Software Engineer <span className='duration'>• April 2017 - March 2018 (1 year)</span></div>
+               <div className='designation'>Senior Software Engineer <span className='duration'>April 2017 - March 2018</span></div>
                <ul>
                   <li> Developed applications for Google Glass and Android smartphones</li>
                   <li> Contributed key features to the main application</li>
@@ -89,7 +99,7 @@ function App() {
 
             <div className='job'>
                <div className='company-title'>ChefOnline</div>
-               <div className='designation'>Android Developer <span className='duration'>• March 2015 - December 2016 (1 year 10 months)</span></div>
+               <div className='designation'>Android Developer <span className='duration'>March 2015 - December 2016</span></div>
                <ul>
                   <li> Developed FOOD online order app with Android MVP pattern, SignalR, Firebase push notification, and payment gateway</li>
                   <li> Implemented auto order system for Android POS device, ensuring efficient order management and delivery</li>
@@ -102,7 +112,7 @@ function App() {
 
             <div className='job'>
                <div className='company-title'>Atomix System Ltd.</div>
-               <div className='designation'>Programmer <span className='duration'>• March 2014 - February 2015 (1 Year)</span></div>
+               <div className='designation'>Programmer <span className='duration'>March 2014 - February 2015</span></div>
                <ul>
                   <li> Developed and maintained native Android apps for phones and tablets</li>
                   <li> Integrated third-party libraries, APIs, and Google Maps</li>
@@ -113,7 +123,7 @@ function App() {
 
             <div className='job'>
                <div className='company-title'>VU Mobile Ltd (ZED Group)</div>
-               <div className='designation'>Software Engineer <span className='duration'>• November 2012 - March 2014 (1 year 4 months)</span></div>
+               <div className='designation'>Software Engineer <span className='duration'>November 2012 - March 2014</span></div>
                <ul>
                   <li> Developed streaming app with content download for offline viewing</li>
                   <li> Integrated VAS services for personalized recommendations, in-app purchases, and subscriptions</li>
@@ -121,59 +131,66 @@ function App() {
                   <li> Utilized analytics and user feedback to improve app performance</li>
                </ul>
             </div>
-
          </section>
 
          <section>
             <div className="headline-medium">Certifications</div>
+
             <div>
-               <div className='mid-bold'>Oracle Certified Professional, Java SE 6 Programmer(OCPJP)</div>
+               <div className='mid-bold'>Oracle Certified Professional, Java SE 6 Programmer (OCPJP)</div>
                <div className='secondary-title'>Issued By: <span className='mid-bold'>Oracle</span></div>
                <div className='secondary-title'>Credential Id: <a href="https://www.credly.com/badges/0d99b65e-5825-49c1-8766-79deaebb5384">OC1661596</a></div>
+               <div style={{ marginTop: '4px', fontSize: '0.9em' }}><strong>Learned:</strong> Core Java APIs, object-oriented design principles, generics, concurrency, and robust exception handling.</div>
             </div>
 
             <div className='top-gap margintop-for-print-mid'>
                <div className='mid-bold'>Kotlin for Java Developers</div>
                <div className='secondary-title'>Issued By: <span className='mid-bold'>Coursera</span></div>
                <div className='secondary-title'>Credential Id: <a href="https://www.coursera.org/account/accomplishments/certificate/7Y38Y4TGG9RR">7Y38Y4TGG9RR</a></div>
+               <div style={{ marginTop: '4px', fontSize: '0.9em' }}><strong>Learned:</strong> Idiomatic Kotlin, Java interoperability, null safety, and asynchronous programming using coroutines.</div>
             </div>
 
             <div className="top-gap">
                <div className='mid-bold'>Python 3 Programming</div>
                <div className='secondary-title'>Issued By: <span className='mid-bold'>Coursera</span></div>
                <div className='secondary-title'>Credential Id: <a href="https://coursera.org/share/f22b60ac1d6d082bce667c17fa584c26">FAPHYQ3S2DYU</a></div>
+               <div style={{ marginTop: '4px', fontSize: '0.9em' }}><strong>Learned:</strong> Python syntax, data structures, data manipulation, and integrating with external REST APIs.</div>
             </div>
 
             <div className="top-gap">
                <div className='mid-bold'>Supervised Machine Learning: Regression and Classification</div>
                <div className='secondary-title'>Issued By: <span className='mid-bold'>Coursera</span></div>
                <div className='secondary-title'>Credential Id: <a href="https://coursera.org/share/88173471304c98931c7e24144f93ff02">FB9ZYHWWYI0F</a></div>
+               <div style={{ marginTop: '4px', fontSize: '0.9em' }}><strong>Learned:</strong> Building predictive models, implementing linear and logistic regression, and optimizing via gradient descent.</div>
             </div>
 
             <div className='top-gap'>
                <div className='mid-bold'><span>Math for Data Science</span></div>
                <div className='secondary-title'>Issued By: <span className='mid-bold'>Coursera</span></div>
                <div className='secondary-title'>Credential Id: <a href="https://www.coursera.org/account/accomplishments/certificate/BS9JTGN3DR5G">BS9JTGN3DR5G</a></div>
+               <div style={{ marginTop: '4px', fontSize: '0.9em' }}><strong>Learned:</strong> Foundational mathematics for ML algorithms, focusing heavily on linear algebra and calculus.</div>
             </div>
 
             <div className='top-gap'>
                <div className='mid-bold'><span>Engineering Maintainable Android Apps</span></div>
                <div className='secondary-title'>Issued By: <span className='mid-bold'>Coursera</span></div>
                <div className='secondary-title'>Credential Id: <a href="https://www.coursera.org/account/accomplishments/certificate/GE74N4AL9UW8">GE74N4AL9UW8</a></div>
+               <div style={{ marginTop: '4px', fontSize: '0.9em' }}><strong>Learned:</strong> Clean architecture principles, software testing (unit and instrumented), and lifecycle management.</div>
             </div>
-         
+
             <div className='top-gap'>
                <div className='mid-bold'><span>Introduction to CSS3</span></div>
                <div className='secondary-title'>Issued By: <span className='mid-bold'>Coursera</span></div>
                <div className='secondary-title'>Credential Id: <a href="https://coursera.org/share/63ce1da4e1179bd8aa435b394d1df8ac">G5UW3MGBBWQB</a></div>
+               <div style={{ marginTop: '4px', fontSize: '0.9em' }}><strong>Learned:</strong> Modern web styling, responsive layout creation, and core UI design principles.</div>
             </div>
 
             <div className='top-gap'>
                <div className='mid-bold'><span>Version Control</span></div>
                <div className='secondary-title'>Issued By: <span className='mid-bold'>Coursera</span></div>
                <div className='secondary-title'>Credential Id: <a href="https://www.coursera.org/account/accomplishments/verify/HN276GWES45G">HN276GWES45G</a></div>
+               <div style={{ marginTop: '4px', fontSize: '0.9em' }}><strong>Learned:</strong> Advanced Git workflows, repository management, branching strategies, and team collaboration.</div>
             </div>
-
          </section>
 
          <section>
@@ -182,7 +199,7 @@ function App() {
                <div className='headline-small'>Gemini Commercial Security</div>
                <div>It&apos;s a complete home automation system based on Zwave, Blutooth Low energy, TCP/IP protocol. Integrated Access Control Systems from 8 to 255 zones/points. The App is supported on phones/smart devices for universality.</div>
                <div className='secondary-title'>Website: <a href="https://t.ly/gFWy8">App Download Link</a></div>
-            </div>   
+            </div>
 
             <div className='bottom-gap'>
                <div className='headline-small'>Napco iLockSDK</div>
@@ -219,7 +236,6 @@ function App() {
                <div>The ChefOnline Partner app is the answer to everything you need for your restaurant management. We have a variety of services for restaurant owners throughout the UK to promote the craft of great eating. Join our platform and be among the top restaurant businesses with diverse cuisine types from all across the country.</div>
                <div className='secondary-title'>Website: <a href="https://play.google.com/store/apps/details?id=com.lechef.SRSITAPP">App Download Link</a></div>
             </div>
-
          </section>
 
          <section>
