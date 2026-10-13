@@ -71,7 +71,7 @@ function App() {
             </ul>
             <div className='job'>
                <div className='company-title'>Adaptive Enterprise Limited</div>
-               <div className='designation'>Senior Software Engineer <span className='duration'>May 2018 - Present</span></div>
+               <div className='designation'>Senior Software Engineer <span className='duration'>May 2018 - January 2026</span></div>
                <ul>
                   <li> IoT Integration: Developed smart home automation system using smart node device based on Z-Wave and Bluetooth low energy protocol</li>
                   <li> Geofencing: Implemented location-based services to enhance application functionalities</li>
