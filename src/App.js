@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { HashRouter as Router, Route } from "react-router-dom";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 import Home from './components/Home.js';
 import About from './components/About.js';
 import UsaRadioAll from './components/UsaRadioAll.js';
@@ -9,7 +9,7 @@ import EnglishHindiDictionary from './components/EnglishHindiDictionary.js';
 class App extends Component {
   render() {
     return (
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <div className="App">
           <div className="Topnav" style={Style.navStyle}>
           
