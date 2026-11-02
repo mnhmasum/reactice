@@ -1,8 +1,9 @@
 {
- "extends": "eslint-config-rallycoding",
- "rules": {
-    "arrow-body-style":0,
-    "object-shorthand":"off"
-  }
-  
+  "extends": [
+    "eslint:recommended",
+    "plugin:import/errors",
+    "plugin:react/recommended",
+    "plugin:jsx-a11y/recommended"
+  ],
+  "plugins": ["react", "import", "jsx-a11y"]
 }
