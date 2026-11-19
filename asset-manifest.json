@@ -1,14 +1,13 @@
 {
   "files": {
-    "main.css": "/reactice/static/css/main.31dc529d.css",
-    "main.js": "/reactice/static/js/main.4348f748.js",
-    "static/media/paceman.svg": "/reactice/static/media/paceman.8037484e62aff77233572f389c6652d9.svg",
+    "main.css": "/reactice/static/css/main.80820291.css",
+    "main.js": "/reactice/static/js/main.7fa96031.js",
     "index.html": "/reactice/index.html",
-    "main.31dc529d.css.map": "/reactice/static/css/main.31dc529d.css.map",
-    "main.4348f748.js.map": "/reactice/static/js/main.4348f748.js.map"
+    "main.80820291.css.map": "/reactice/static/css/main.80820291.css.map",
+    "main.7fa96031.js.map": "/reactice/static/js/main.7fa96031.js.map"
   },
   "entrypoints": [
-    "static/css/main.31dc529d.css",
-    "static/js/main.4348f748.js"
+    "static/css/main.80820291.css",
+    "static/js/main.7fa96031.js"
   ]
 }
