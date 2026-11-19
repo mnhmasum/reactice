@@ -1,5 +1,5 @@
 # mnhmasum.github.io
-To visit my website please click below link 
+Maintain this repository to publish web pages for many purposes
 https://mnhmasum.github.io/reactice/#/
 
 
